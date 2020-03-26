@@ -1,3 +1,2 @@
 # wtf-book
-Here you can find my portfolio. Enjoy your visit!
-readme.md
+Here you can find my portfolio. Enjoy your visit !
