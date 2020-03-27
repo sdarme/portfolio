@@ -57,4 +57,15 @@ z-index: 99;}
     left: 24vw;
 
 }  
-
+#orange{
+    color: orangered;
+}
+#rose{
+        color: deeppink;
+}
+#violet{
+        color: darkmagenta;
+}
+#bleu{
+        color: darkblue;
+}
