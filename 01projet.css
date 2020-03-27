@@ -14,12 +14,11 @@ font-variant-caps: all-small-caps;
 position: fixed;
 top:0;
 left:0;
-z-index: 1;
-/*margin: 1vw;*/
+z-index: 99;
 }
 
 .el:hover{ color: deeppink;}
-/*//mmmmmmmmmmenuuuuuuuuuuuu//*/
+
 
 .image{
     margin: 3vw;
