@@ -1,19 +1,28 @@
-body{margin:0;}
-
-a{text-decoration: none;
-color: black;}
-
-.menu{ 
-display: flex;
-justify-content:space-around;
-width: 100vw;
-height: 2.2vw;
-font-family: sans-serif;
-font-size: 1.2vw;
-font-variant-caps: all-small-caps;
-position: fixed;
-top:0;
-left:0;}
-
-.el:hover{ color: deeppink;}
-/*//mmmmmmmmmmenuuuuuuuuuuuu//*/
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="moi.css" />
+      <link rel="icon" href="iconesite.png" />
+      
+    <title>Moi</title></head>
+    
+  <body>
+      
+      <div class="menu">
+          
+          <a href="index.html">   <div  class="el" id="home">☺</div></a>
+          
+    <a href="projets.html"><div class="el" id="pageprojets">Projets</div></a>
+          
+  <a href="contact.html">  <div class="el" id="contact">Contact</div></a>
+          
+   <a href="moi.html"> <div class="el" id="moi">Moi</div></a>
+          
+    <a href="CV-Sarah-Darme.pdf" ><div class="el" id="cv">CV</div></a>
+          
+     </div>
+     
+      
+    </body>
