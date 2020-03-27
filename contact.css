@@ -55,8 +55,19 @@ z-index: 99;}
     opacity: 0;
     top: 15vh;
     left: 24vw;
-
 }  
+
+.texte{
+
+font-size: 2.8vw;
+font-family: sans-serif;
+width: 70vw;
+text-align: justify;
+right: 15vw;
+position: absolute;
+font-weight: 600;
+top: 10vw;}
+
 #orange{
     color: orangered;
 }
