@@ -55,7 +55,24 @@ cursor: cell;}
     border: solid aqua 0.4vw;
 }
 
+
 #english{
-    color: #c5eeff;
     font-weight: 100;
+    opacity: 90%;
+}
+
+
+#orange{
+    color: orangered;
+    display: inline;
+}
+
+#yellow{
+    color: yellow;
+    display: inline;
+}
+
+#rose{
+    color: deeppink;
+    display: inline;
 }
