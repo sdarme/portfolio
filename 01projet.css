@@ -38,6 +38,7 @@ cursor: cell;}
 }
 
 .contexte{
+    cursor:context-menu;
     z-index: 98;
     width: 35vw;
     right: 0;
