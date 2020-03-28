@@ -28,9 +28,51 @@
       <img class="image" src="feminisme_3_small.jpg">
       <img class="image" src="feminisme_4_small.jpg">
     
-       <div class="contexte">Trois éditions construites autour de textes féministes : <br><div id="orange">-Orange</div>, un texte de Virginie Despentes. Déchirer le papier aux pliures, entrer par effraction dans l’objet. <br><div id="yellow">-Jaune</div>, un texte de Faith Wilding. Dans l’attente constante, considérée enfant à vie, la reliure signifie couper le cordon. <br><div id="rose">-Rose</div>, un texte de Tiphaine D .  Traduire l’éloquence de l’autrice, dans un texte difficile, car le féminin l’emporte sur la masculin. Le pliage, la reliure et la typographie traduisent l’essence du contenu. Distribués dans la rue, ces objets ont pour but de partager ces textes. De la même manière je met en avant des typographes femmes et leur travail : Alice Savoie, Alexandra Korolkova
-      <br><br><i><div id="english">Three publishing about the feminisme’s subjet : <br><div id="orange">-Orange</div>, written by Virginy Despentes. Rip the paper up at the foldings means breaking in the object. <br><div id="yellow">-Yellow</div>, a text written by Faith Wilding. Always waiting, considered like a child for life, the bending means cut the umbilical cord. <br><div id="rose">-Pink</div>, a text written by Tiphaine D . Translate the author’s eloquence. The understanding is made difficult by the style, indeed the masculin is no longer considered as neutral or stronger and feminin beat it up. Folding binding and font convey the core of the texts. Giving up in the street, the aim of those objects is to improve the knowing of those writings. I had the same purpose for the femal typographer’s work I used : Alice Savoie and Alexandra Korolkova
-</div></i>
-</div>
-            <footer>   <div id="bottom">© Copyright 2019. Sarah Darme. Tous droits réservés.</div></footer> 
+     
+<div id="bouton">o</div>    
+<div id="contexte">
+   
+      <div id="french">Trois éditions construites autour de textes féministes : <br><div id="orange">-Orange</div>, un texte de Virginie Despentes. Déchirer le papier aux pliures, entrer par effraction dans l’objet. <br><div id="yellow">-Jaune</div>, un texte de Faith Wilding. Dans l’attente constante, considérée enfant à vie, la reliure signifie couper le cordon. <br><div id="rose">-Rose</div>, un texte de Tiphaine D .  Traduire l’éloquence de l’autrice, dans un texte difficile, car le féminin l’emporte sur la masculin. Le pliage, la reliure et la typographie traduisent l’essence du contenu. Distribués dans la rue, ces objets ont pour but de partager ces textes. De la même manière je met en avant des typographes femmes et leur travail : Alice Savoie, Alexandra Korolkova</div>
+      <br><br><i><div id="english">Three publishing about the feminisme’s subjet : <br><div id="orange">-Orange</div>, written by Virginy Despentes. Rip the paper up at the foldings means breaking in the object. <br><div id="yellow">-Yellow</div>, a text written by Faith Wilding. Always waiting, considered like a child for life, the bending means cut the umbilical cord. <br><div id="rose">-Pink</div>, a text written by Tiphaine D . Translate the author’s eloquence. The understanding is made difficult by the style, indeed the masculin is no longer considered as neutral or stronger and feminin beat it up. Folding binding and font convey the core of the texts. Giving up in the street, the aim of those objects is to improve the knowing of those writings. I had the same purpose for the femal typographer’s work I used : Alice Savoie and Alexandra Korolkova</div></i>
+</div> 
+      
+
+      
+        <footer> <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      
+      
     </body>
+       <script> document.getElementById('bouton').addEventListener('click', function(){ 
+           document.getElementById('contexte').style.width = "35vw";
+           document.getElementById('contexte').style.height = "inherit";
+           
+          document.getElementById('contexte').style.borderColor = "orangered";
+          
+        document.getElementById('bouton').textContent = "x";
+           document.getElementById('contexte').style.borderRadius = "2.5vw";
+           document.getElementById('french').style.width = "35vw";
+           
+          document.getElementById('english').style.width = "35vw";
+           
+           document.getElementById('bouton').style.color = "orangered";
+           
+           document.getElementById('bouton').style.fontSize = "1.2vw";
+               document.getElementById('french').style.opacity = "1";
+           
+   },
+    false);
+    
+window.onclick=function(){
+
+    var bouton = document.getElementById('bouton');
+    var nav = document.getElementById('contexte');
+    bouton.onclick = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+};
+    
+       </script>
