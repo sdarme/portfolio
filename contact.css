@@ -1,9 +1,9 @@
 body{margin:0;
+    background: black;
 }
 
-      a{text-decoration: none;
-      color: black;
-      cursor: cell;}
+a{text-decoration: none;
+color: white;}
 
 .menu{ 
 display: flex;
@@ -21,35 +21,20 @@ z-index: 99;}
 .el:hover{ color: deeppink;
 cursor: cell;}
 
+#home{
+    font-weight: 800;
+    font-size: 1.8vw;
+}
+
 
 #un{
     cursor:cell;
-    width: 6vw;
+    width: 7vw;
     position: absolute;
-    top: 50vh;
-    left: 35vw;
+    top: 65vh;
+    left: 55vw;
     z-index: 2;
 }
-
-#deux{
-    cursor:cell;
-    width: 6vw;
-    position: absolute;
-    top: 15vh;
-    left: 80vw;
-    z-index: 2;
-}
-
-#trois{
-    cursor:cell;
-    width: 6vw;
-    position: absolute;
-    top: 25vh;
-    left: 5vw;
-    z-index: 2;
-}
-
-
 
 #txtun{
     cursor:context-menu;
@@ -58,10 +43,49 @@ cursor: cell;}
     font-weight: 600;
     position: absolute;
     opacity: 0;
-    top: 50vh;
-    left: 45vw;
-}  
+    top: 65vh;
+    left: 63vw;
+    color: white;
+} 
 
+#deux{
+    cursor:cell;
+    width: 6vw;
+    position: absolute;
+    top: 10vh;
+    left: 85vw;
+    z-index: 2;
+}
+
+#trois{
+    cursor:cell;
+    width: 6vw;
+    position: absolute;
+    top: 30vh;
+    left: 5vw;
+    z-index: 2;
+}
+
+#quatre{
+    cursor:cell;
+    width: 5vw;
+    position: absolute;
+    top: 32vh;
+    left: 35vw;
+    z-index: 2;
+}
+
+#txtquatre{
+    cursor:context-menu;
+    font-family: sans-serif;
+    font-size: 3vw;
+    font-weight: 600;
+    position: absolute;
+    opacity: 0;
+    top: 32vh;
+    left: 46vw;
+    color: white;
+} 
 
 .texte{
 
@@ -75,25 +99,41 @@ cursor:context-menu;
 
 #orange{
     color: orangered;
-    top: 10vw;
+    top: 3vw;
     left: 15vw;
+    transform: rotate(-8deg);
 
 }
 #rose{
-        color: deeppink;
-    top: 15vw;
+    color: deeppink;
+    top: 8vw;
     left: 55vw;
     width: 40vw;
 }
 #violet{
         color: darkmagenta;
-        top: 20vw;
-        left: 20vw;
-    width: 70vw;
+        top: 15vw;
+        left: 24vw;
+        width: 70vw;
+        transform: rotate(8deg);
 }
 #bleu{
-        color: darkblue;
-        top: 30vw;
+        color: white;
+        top: 25vw;
         left: 15vw;
     width: 55vw;
+}
+
+
+#bottom{
+    font-family: sans-serif;
+    font-size: 1vw;
+    cursor:context-menu;
+    position: absolute;
+    bottom: 0vw;
+    font-variant-caps: all-small-caps;
+    text-align: center;
+    color: gray;
+    align-content: center;
+    width: 100vw;
 }
