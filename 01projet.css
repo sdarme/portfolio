@@ -42,8 +42,8 @@ cursor: cell;}
     z-index: 98;
     width: 0.1vw;
     height: 0.1vw;
-    right: 2vw;
-    bottom: 2vw;
+    right: 1vw;
+    bottom: 1vw;
     /*le padding lui donne sa taille déjà*/
     position:fixed;
     border-radius:  5.5vw;
@@ -78,8 +78,8 @@ cursor: cell;}
     z-index: 99;
     width: 3vw;
     font-family:sans-serif;
-    right: 3vw;
-    bottom: 3.4vw;
+    right: 2vw;
+    bottom: 2.4vw;
     position:fixed;
     cursor: cell;
 }
