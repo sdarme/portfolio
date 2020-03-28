@@ -37,30 +37,56 @@ cursor: cell;}
     width: 50vw;
 }
 
-.contexte{
+#contexte{
     cursor:context-menu;
     z-index: 98;
-    width: 35vw;
-    right: 0;
-    bottom: 0vw;
-    color: white;
+    width: 0.1vw;
+    height: 0.1vw;
+    right: 2vw;
+    bottom: 2vw;
+    /*le padding lui donne sa taille déjà*/
     position:fixed;
+    border-radius:  5.5vw;
+    padding: 2vw;
+    border: solid deeppink 0.4vw;
+    color: white;
     font-family: sans-serif;
     text-align: justify;
     font-size: 80%;
-    padding: 2.2vw;
+    transition-timing-function: ease-in;
+    transform-origin: bottom;
     background-color: black;
-    border-radius:  2.5vw;
+}
+
+#french{
     font-weight: 500;
-    border: solid aqua 0.4vw;
+    width: 0vw;
+    transition-timing-function: ease-out;
+    transition-duration: 0.6s;
 }
-
-
 #english{
-    font-weight: 100;
-    opacity: 90%;
+    width: 0vw;
+    transition-timing-function: ease-out;
+    transition-duration: 0.6s;
 }
 
+#bouton{
+    color: deeppink;
+    font-weight: 600;
+    text-align:center;
+    font-size: 2vw;
+    z-index: 99;
+    width: 3vw;
+    font-family:sans-serif;
+    right: 3vw;
+    bottom: 3.4vw;
+    position:fixed;
+    cursor: cell;
+}
+
+
+#french{opacity: 0;
+transition-timing-function: linear}
 
 #orange{
     color: orangered;
