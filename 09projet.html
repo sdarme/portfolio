@@ -27,10 +27,55 @@
       <img class="image" src="collage_2.jpg">
       <img class="image" src="collage_3.jpg">
       <img class="image" src="collage_6.jpg">
-    
-                <div class="contexte">Ces éléments ont été : Photographiés, photoshopés, imprimés, coupés, collés, photographiés, photoshopés, et enfin imprimés sur papier photo avant de se retrouver dans ce portfolio.
-      <br><br><i><div id="english">Those elements were : Photographed, photoshoped, printed, cutted, sticked, photographed, photoshoped and finaly printed onto glossy photo paper before appearing i that portfolio.
-</div></i>
-</div>
-            <footer>   <div id="bottom">© Copyright 2018. Sarah Darme. Tous droits réservés.</div></footer> 
+     
+
+    <div id="bouton">o</div>    
+<div id="contexte">
+   
+      <div id="french">Ces éléments ont été : Photographiés, photoshopés, imprimés, coupés, collés, photographiés, photoshopés, et enfin imprimés sur papier photo avant de se retrouver dans ce portfolio.</div>
+      <br><br><i><div id="english">Those elements were : Photographed, photoshoped, printed, cutted, sticked, photographed, photoshoped and finaly printed onto glossy photo paper before appearing i that portfolio.</div></i>
+</div> 
+      
+
+      
+        <footer> <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      
+      
     </body>
+       <script> document.getElementById('bouton').addEventListener('click', function(){ 
+           document.getElementById('contexte').style.width = "35vw";
+           document.getElementById('contexte').style.height = "inherit";
+           
+          document.getElementById('contexte').style.borderColor = "orangered";
+          
+        document.getElementById('bouton').textContent = "x";
+           document.getElementById('contexte').style.borderRadius = "2.5vw";
+           document.getElementById('french').style.width = "35vw";
+           
+          document.getElementById('english').style.width = "35vw";
+           
+           document.getElementById('bouton').style.color = "orangered";
+           
+           document.getElementById('bouton').style.fontSize = "1.2vw";
+               document.getElementById('french').style.opacity = "1";
+           
+   },
+    false);
+    
+window.onclick=function(){
+
+    var bouton = document.getElementById('bouton');
+    var nav = document.getElementById('contexte');
+    bouton.onclick = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+};
+
+
+       
+       
+       </script>
