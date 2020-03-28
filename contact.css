@@ -123,16 +123,3 @@ cursor:context-menu;
         left: 15vw;
     width: 55vw;
 }
-
-
-#bottom{
-    font-family: sans-serif;
-    font-size: 1vw;
-    cursor:context-menu;
-    position: absolute;
-    bottom: 0vw;
-    text-align: center;
-    color: gray;
-    align-content: center;
-    width: 100vw;
-}
