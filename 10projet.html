@@ -29,9 +29,54 @@
       <img class="image" src="science_4.png">
       <img class="image" src="science_6.png">
     
-                <div class="contexte">Photographies macro d'objets divers puis photoshopés dans le but de se rapprocher au plus de photographies scientifiques.
-      <br><br><i><div id="english">Varied object's macro photographs that seem like scientific photographs.
-</div></i>
-</div>
-            <footer>   <div id="bottom">© Copyright 2018. Sarah Darme. Tous droits réservés.</div></footer> 
+    
+   <div id="bouton">o</div>    
+<div id="contexte">
+   
+      <div id="french">Photographies macro d'objets divers puis photoshopés dans le but de se rapprocher au plus de photographies scientifiques.</div>
+      <br><br><i><div id="english">Varied object's macro photographs that seem like scientific photographs.</div></i>
+</div> 
+      
+
+      
+        <footer> <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      
+      
     </body>
+       <script> document.getElementById('bouton').addEventListener('click', function(){ 
+           document.getElementById('contexte').style.width = "35vw";
+           document.getElementById('contexte').style.height = "inherit";
+           
+          document.getElementById('contexte').style.borderColor = "orangered";
+          
+        document.getElementById('bouton').textContent = "x";
+           document.getElementById('contexte').style.borderRadius = "2.5vw";
+           document.getElementById('french').style.width = "35vw";
+           
+          document.getElementById('english').style.width = "35vw";
+           
+           document.getElementById('bouton').style.color = "orangered";
+           
+           document.getElementById('bouton').style.fontSize = "1.2vw";
+               document.getElementById('french').style.opacity = "1";
+           
+   },
+    false);
+    
+window.onclick=function(){
+
+    var bouton = document.getElementById('bouton');
+    var nav = document.getElementById('contexte');
+    bouton.onclick = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+};
+
+
+       
+       
+       </script>
