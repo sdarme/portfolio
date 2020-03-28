@@ -61,7 +61,7 @@ cursor: cell;}
     cursor:cell;
     width: 6vw;
     position: absolute;
-    top: 30vh;
+    top: 38vh;
     left: 5vw;
     z-index: 2;
 }
@@ -70,8 +70,8 @@ cursor: cell;}
     cursor:cell;
     width: 5vw;
     position: absolute;
-    top: 32vh;
-    left: 35vw;
+    top: 22vh;
+    left: 26vw;
     z-index: 2;
 }
 
@@ -82,11 +82,10 @@ cursor: cell;}
     font-weight: 600;
     position: absolute;
     opacity: 0;
-    top: 34vh;
-    left: 42vw;
+    top: 25vh;
+    left: 32vw;
     color: white;
 } 
-
 
 .texte{
 
@@ -113,8 +112,8 @@ cursor:context-menu;
 }
 #violet{
         color: darkmagenta;
-        top: 15vw;
-        left: 24vw;
+        top: 20vw;
+        left: 44vw;
         width: 70vw;
         transform: rotate(8deg);
 }
