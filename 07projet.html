@@ -29,11 +29,56 @@
       <img class="image" src="mode_6.jpg">
       <img class="image" src="mode_7.jpg">
       <img class="image" src="mode_1.jpg">
-    
-          <div class="contexte">
-        Un hommage aux photographies de mode surréalistes du photographe Guy Bourdin. J’ai cependant choisi d’utiliser le photomontage et non le cadrage pour couper et dénaturer les corps.
-      <br><br><i><div id="english">A tribute to the fashion photographer Guy Bourdin. Yet I chosse to use photomontage instead of framing to cut up and alter my model’s body.
-</div></i>
-</div>
-            <footer>   <div id="bottom">© Copyright 2019. Sarah Darme. Tous droits réservés.</div></footer> 
+          
+
+    <div id="bouton">o</div>    
+<div id="contexte">
+   
+      <div id="french">
+        Un hommage aux photographies de mode surréalistes du photographe Guy Bourdin. J’ai cependant choisi d’utiliser le photomontage et non le cadrage pour couper et dénaturer les corps.</div>
+      <br><br><i><div id="english">A tribute to the fashion photographer Guy Bourdin. Yet I chosse to use photomontage instead of framing to cut up and alter my model’s body.</div></i>
+</div> 
+      
+
+      
+        <footer> <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      
+      
     </body>
+       <script> document.getElementById('bouton').addEventListener('click', function(){ 
+           document.getElementById('contexte').style.width = "35vw";
+           document.getElementById('contexte').style.height = "inherit";
+           
+          document.getElementById('contexte').style.borderColor = "orangered";
+          
+        document.getElementById('bouton').textContent = "x";
+           document.getElementById('contexte').style.borderRadius = "2.5vw";
+           document.getElementById('french').style.width = "35vw";
+           
+          document.getElementById('english').style.width = "35vw";
+           
+           document.getElementById('bouton').style.color = "orangered";
+           
+           document.getElementById('bouton').style.fontSize = "1.2vw";
+               document.getElementById('french').style.opacity = "1";
+           
+   },
+    false);
+    
+window.onclick=function(){
+
+    var bouton = document.getElementById('bouton');
+    var nav = document.getElementById('contexte');
+    bouton.onclick = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+};
+
+
+       
+       
+       </script>
