@@ -28,9 +28,54 @@
       <img class="image" src="voix_5_small.jpg">
       <img class="image" src="voix_4_small.jpg">
     
-    <div class="contexte">Cette objet éditorial réunis trois textes de nature différente ainsi qu’un ajout d’iconographie. Leur point commun est la voix. Tour à tour l’auteur de l’œuvre, le graphiste, le typographe l’éditeur, le photographe et plus encore expriment leur auctorialité en un seul objet. Il m’a permis dès la deuxième année de mettre en place un système graphique cohérent. Il est façonné chez l’imprimeur en ligne Lulu.
+    <<div id="bouton">o</div>    
+<div id="contexte">
+   
+      <div id="french">Cette objet éditorial réunis trois textes de nature différente ainsi qu’un ajout d’iconographie. Leur point commun est la voix. Tour à tour l’auteur de l’œuvre, le graphiste, le typographe l’éditeur, le photographe et plus encore expriment leur auctorialité en un seul objet. Il m’a permis dès la deuxième année de mettre en place un système graphique cohérent. Il est façonné chez l’imprimeur en ligne Lulu.</div>
       <br><br><i><div id="english">
-      This printing is made of three different kind of texts with their iconography and my own addition. The voice is their common trait. One by one the graphic designer, the typographer, the publisher, the photographer and even more express themself in a single object. This work allows me from my second year at the ESAD to create an editorial content from A to Z. It was printed and binded by the online printer Lulu.</div></i>
-</div>
-            <footer>   <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      This printing is made of three different kind of texts with their iconography and my own addition. The voice is their common trait. One buy one the graphic designer, the typographer, the publisher, the photographer and even more express themself in a single object. This work allows me from my second year at the ESAD to create an editorial content from A to Z. It was printed and binded by the online printer Lulu.</div></i>
+</div> 
+      
+
+      
+        <footer> <div id="bottom">© Copyright 2017. Sarah Darme. Tous droits réservés.</div></footer> 
+      
+      
     </body>
+       <script> document.getElementById('bouton').addEventListener('click', function(){ 
+           document.getElementById('contexte').style.width = "35vw";
+           document.getElementById('contexte').style.height = "inherit";
+           
+          document.getElementById('contexte').style.borderColor = "orangered";
+          
+        document.getElementById('bouton').textContent = "x";
+           document.getElementById('contexte').style.borderRadius = "2.5vw";
+           document.getElementById('french').style.width = "35vw";
+           
+          document.getElementById('english').style.width = "35vw";
+           
+           document.getElementById('bouton').style.color = "orangered";
+           
+           document.getElementById('bouton').style.fontSize = "1.2vw";
+               document.getElementById('french').style.opacity = "1";
+           
+   },
+    false);
+    
+window.onclick=function(){
+
+    var bouton = document.getElementById('bouton');
+    var nav = document.getElementById('contexte');
+    bouton.onclick = function(e){
+        if(nav.style.display=="block"){
+            nav.style.display="none";
+        }else{
+            nav.style.display="block";
+        }
+    };
+};
+
+
+       
+       
+       </script>
