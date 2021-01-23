@@ -3,91 +3,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="portfolio.css" />
+    <link type="text/css" rel="stylesheet" href="01projet.css" />
   <link rel="icon" href="iconesite.png" />
       
-    <title>Bienvenue</title>
-  </head>
+    <title>Mes projets</title></head>
     
-    <style type="text/css">
-    
-    body{margin: 0;
-padding: 0;}
+    <style> 
+       
 
-a{text-decoration: none;
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+    grid-gap: 2vh;
+    height: 90vh;
+    width:90vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:5vh;
+    
+}
+
+.grid-item {
+    background-color: rgba(0, 235, 255, 0);
+    overflow:hidden;
+    display:block;
+    background-size: 100% auto;
+    background-repeat:no-repeat;
+    background-position: center center;
+    width:27vw;
+    height:27vw;   
+}
+
+.grid-item:hover{
+    filter: grayscale(100%);
+    overflow: hidden;
+    background-size: 120% auto;
+    cursor: cell;
+}
+
+
+#proj01 {
+    background-image: url(../IMG/voix_3_small.jpg);
+    transition:all .3s ease-in-out;
 cursor: cell;}
 
-#bien{
-    font-size: 2.8vw;
-    font-family: sans-serif;
-width: 70vw;
-text-align: justify;
-right: 15vw;
-position: absolute;
-font-weight: 600;
-top: 10vw;
-        cursor:context-menu;}
+        
+#proj02 {
+    background-image: url(../IMG/cinesad_orange_small.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
+        
+        
+#proj03 {
+    background-image: url(../IMG/reve_1.png);
+    transition:all .3s ease-in-out;
+cursor: cell;}
+        
+#proj04 {
+    background-image: url(../IMG/feminisme_4_small.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
+        
+#proj05 {
+    background-image: url(../IMG/fear2.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}    
 
-#projet{color: orangered;}
-#contact{color:darkblue;}
-#cv{color:darkmagenta;}
-    
-        #iconesite{
-        width: 4vw;
-        position: absolute;
-        top: 5vw;
-        left: 10vw;
-        z-index: 99;}
+#proj06 {
+    background-image: url(../IMG/jonquille_specimen_1_small.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
         
-        #iconesite2{
-        width: 4vw;
-        position: absolute;
-        top: 12vw;
-        left: 90vw;
-        z-index: 99;}
-    
-        #iconesite3{
-        width: 4vw;
-        position: absolute;
-        top: 40vw;
-        left: 60vw;
-        z-index: 99;}
+#proj07 {
+    background-image: url(../IMG/mode_3.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}        
+
+#proj08 {
+    background-image: url(../IMG/protocole_1_small.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
         
-        #iconesite4{
-        width: 4vw;
-        position: absolute;
-        top: 30vw;
-        left: 45vw;
-        z-index: 99;} 
         
-        #iconesite5{
-        width: 4vw;
-        position: absolute;
-        top: 34vw;
-        left: 13vw;
-        z-index: 99;} 
+#proj09 {
+    background-image: url(../IMG/collage_5.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
         
-        #iconesite6{
-        width: 4vw;
-        position: absolute;
-        top: 12vw;
-        left: 55vw;
-        z-index: 99;} 
-    </style>
+#proj10 {
+    background-image: url(../IMG/corpsesprit.jpg);
+    transition:all .3s ease-in-out;
+cursor: cell;}
+        
+#proj11 {
+    background-image: url(../IMG/science_1.png);
+    transition:all .3s ease-in-out;
+cursor: cell;}
+        
+
+
+
+  
+</style>
     
   <body>
       
-    <div id="bien"> Bienvenue sur mon portfolio !<br><br>
-    Grâce à lui vous pouvez<a href="projets.html" id="projet"> voir mes projets</a> puis <a href="contact.html" id="contact">me contacter</a> si ils vous ont plu, et même <a href="CV-Sarah-Darme.pdf" target="_blank" id="cv">télécharger mon CV</a> si vous souhaitez que nous travaillions ensemble. 
-    Bonne visite. <br><br>Sarah Darme </div>
+            <div class="menu">
+          
+
+          
+    <a href="index.html"><div class="el" id="pageprojets">Projets</div></a>
+          
+  <a href="contact.html">  <div class="el" id="contact">Contact</div></a>
+        
+          
+    <a href="CV_Sarah_Darme_2021.pdf" target="_blank"><div class="el" id="cv">CV</div></a>
+          
+                
+     </div>
+    
+      <div class="grid-container">
+       
+ <a href="01projet.html"><div class="grid-item" id="proj01"></div></a>
+         
+ <a href="02projet.html"><div class="grid-item" id="proj02"></div></a>
+
+<a href="03projet.html"><div class="grid-item" id="proj03"></div></a>    
+         
+ <a href="04projet.html"><div class="grid-item" id="proj04"></div></a>
+         
+<a href="https://www.youtube.com/watch?v=rR0vO1XKL8c" target="_blank"><div class="grid-item" id="proj05"></div> </a>    
+   
+ <a href="06projet.html"><div class="grid-item" id="proj06"></div></a>
+         
+<a href="07projet.html"><div class="grid-item" id="proj07"></div></a>
+         
+ <a href="08projet.html"><div class="grid-item" id="proj08"></div></a>
+         
+<a href="09projet.html"><div class="grid-item" id="proj09"></div></a>
+          
+<a href="https://www.youtube.com/watch?v=xJfTCKReEEY" target="_blank"> <div class="grid-item" id="proj10"></div> </a>
+
+          
+<a href="10projet.html"> <div class="grid-item" id="proj11"></div> </a>
+          
+</div>     
       
 
-      <img src="iconesite.png" id="iconesite">
-      <img src="iconesite.png" id="iconesite2">
-      <img src="iconesite.png" id="iconesite3">
-      <img src="iconesite.png" id="iconesite4">
-      <img src="iconesite.png" id="iconesite5">
-      <img src="iconesite.png" id="iconesite6">
-      
     </body>
 </html>
