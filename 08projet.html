@@ -3,83 +3,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="01projet.css" />
-      <link rel="icon" href="iconesite.png" />
+    <link type="text/css" rel="stylesheet" href="../CSS/01projet.css" />
+      <link rel="icon" href="../IMG/iconesite.png" />
       
     <title>Édition au dés</title></head>
     
   <body>
       
       <div class="menu">
+
           
-          <a href="index.html">   <div  class="el" id="home">☺</div></a>
-          
-    <a href="projets.html"><div class="el" id="pageprojets">Projets</div></a>
+    <a href="index.html"><div class="el" id="pageprojets">Projets</div></a>
           
   <a href="contact.html">  <div class="el" id="contact">Contact</div></a>
+
           
-     <a href="CV-Sarah-Darme.pdf" target="_blank"><div class="el" id="cv">CV</div></a>
+    <a href="../IMG/CV_Sarah_Darme_2021.pdf" target="_blank"><div class="el" id="cv">CV</div></a>
           
      </div>
      
-      <img class="image" src="protocole_texte.png">
-      <img class="image" src="protocole_1_small.jpg">
-      <img class="image" src="protocole_2_small.jpg">
-      <img class="image" src="protocole_3_small.jpg">
+      <img class="image" src="../IMG/protocole_texte.png">
+      <img class="image" src="../IMG/protocole_1_small.jpg">
+      <img class="image" src="../IMG/protocole_2_small.jpg">
+      <img class="image" src="../IMG/protocole_3_small.jpg">
+      
 
     
-    <div id="bouton">o</div>    
+
 <div id="contexte">
    
-      <div id="french">Un protocole à jouer avec deux dés m’a été attribué.
-        J’en ai défini les règles qui m’ont alors permis de définir chaque élément de cette édition: textes, papiers, fil, reliure, pagination, iconographie.
-        Les yeux fermés, j’ai sélectionné les sources dans ma bibliothèque.
-        Protocole donné: lancer les dés jusqu’à faire le même double, préalablement choisi, deux fois de suite. Appliquer une règle à chaque chiffre.</div>
-      <br><br><i><div id="english">I received a protocol to play with two dices.
-  I created the rules then it allowed me to define one rule for each element of this publishing like texts, paper, bending thread, style of thread, pagination or iconography.
-  Eyes closed I selected all the items in my personal library. The protocol I was gaved said: Throw the dices until you make  twice the same double you already choose. Give a rule to each number.</div></i>
+          <div id="titre">Édition - Protocole au lancé de dés</div><br>
+      <div id="date">2019<br>
+    </div><br><br>
+    
+      <div id="french">Un protocole à jouer avec deux dés m’a été attribué. J’en ai défini les règles qui m’ont alors permis de définir chaque élément de cette édition : textes, papiers, fil, reliure, pagination, iconographie. Les yeux fermés, j’ai sélectionné les sources dans ma bibliothèque. Protocole donné: lancer les dés jusqu’à faire le même double, préalablement choisi, deux fois de suite. Appliquer une règle à chaque chiffre.</div>
+      <br><div id="english">I received a protocol to play with two dices. I created the rules then it allowed me to define one rule for each element of this publishing like texts, paper, bending thread, style of thread, pagination or iconography. Eyes closed I selected all the items in my personal library. The protocol I was gaved said : Throw the dices until you make  twice the same double you already choose. Give a rule to each number.</div>
 </div> 
       
 
       
-        <footer> <div id="bottom">© Copyright 2018. Sarah Darme. Tous droits réservés.</div></footer> 
+        <footer> <div id="bottom">© Copyright 2020. Sarah Darme. Tous droits réservés. Font : Happy Times - Lucas Le Bihan</div></footer>
       
       
     </body>
-       <script> document.getElementById('bouton').addEventListener('click', function(){ 
-           document.getElementById('contexte').style.width = "35vw";
-           document.getElementById('contexte').style.height = "inherit";
-           
-          document.getElementById('contexte').style.borderColor = "orangered";
-          
-        document.getElementById('bouton').textContent = "x";
-           document.getElementById('contexte').style.borderRadius = "2.5vw";
-           document.getElementById('french').style.width = "35vw";
-           
-          document.getElementById('english').style.width = "35vw";
-           
-           document.getElementById('bouton').style.color = "orangered";
-           
-           document.getElementById('bouton').style.fontSize = "1.2vw";
-               document.getElementById('french').style.opacity = "1";
-           
-   },
-    false);
-    
-window.onclick=function(){
-
-    var bouton = document.getElementById('bouton');
-    var nav = document.getElementById('contexte');
-    bouton.onclick = function(e){
-        if(nav.style.display=="block"){
-            nav.style.display="none";
-        }else{
-            nav.style.display="block";
-        }
-    };
-};
-
-
-       
-       
-       </script>
