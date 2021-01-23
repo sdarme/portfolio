@@ -1,18 +1,33 @@
-body{margin:0; background-color: black;}
+body{margin:0; background-color:#ffffff ;
+}
+
+@font-face{    
+    font-family: "happy-times_italic";
+    src: url(happy-times_italic.woff2);
+}
+@font-face{
+    font-family: "happy-times_bold";
+    src: url(happy-times_bold.woff2);
+}
+
+@font-face{
+    font-family: "happy-times_regular";
+    src: url(happy-times_regular.woff);
+}
 
 a{text-decoration: none;
-color: white;
+color: black;
 cursor: cell;}
 
 .menu{ 
 display: flex;
 justify-content:space-around;
 width: 100vw;
-height: 2.2vw;
-font-family: sans-serif;
-font-size: 1.6vw;
-font-variant-caps: all-small-caps;
+height: 2.1vw;
+font-size: 1.2vw;
+font-family: happy-times_regular;
 position: fixed;
+color: black;
 top:0;
 left:0;
 left:0;
@@ -24,89 +39,72 @@ cursor: cell;}
 
 #home{
     font-weight: 800;
-    font-size: 1.8vw;
+    font-size: 1.6vw;
 }
 
 .image{
-    margin: 3vw;
+    /*margin: 1vw;*/
     position:relative;
     z-index: -10;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50vw;
+    display:inline;
+    margin-left: 0vw;
+    width: 70vw;
 }
 
+#first {
+    top: 0vw;
+    margin-top: 0vw;
+}
+
+
 #contexte{
-    cursor:context-menu;
-    z-index: 98;
-    width: 0.1vw;
-    height: 0.1vw;
+    z-index: -10;
+    width: 25vw;
+    height: 45vw;
     right: 1vw;
-    bottom: 1vw;
+    top: 4vw;
     /*le padding lui donne sa taille déjà*/
     position:fixed;
-    border-radius:  5.5vw;
-    padding: 2vw;
-    border: solid deeppink 0.4vw;
-    color: white;
-    font-family: sans-serif;
-    text-align: justify;
-    font-size: 80%;
+    padding: 1vw;
+ 
+    font-family: happy-times_regular;
+    text-align:left;
+
     transition-timing-function: ease-in;
     transform-origin: bottom;
-    background-color: black;
+    font-size: 0.8vw;
+}
+
+#titre{
+
+font-family: happy-times_bold;
+font-size: 1.5vw;
+}
+
+#date{
+font-family: happy-times_italic;
 }
 
 #french{
     font-weight: 500;
-    width: 0vw;
-    transition-timing-function: ease-out;
-    transition-duration: 0.6s;
+
+font-family: happy-times_regular;
 }
+
 #english{
-    width: 0vw;
-    transition-timing-function: ease-out;
-    transition-duration: 0.6s;
+font-family: happy-times_italic;
 }
 
-#bouton{
+.rose{
     color: deeppink;
-    font-weight: 600;
-    text-align:center;
-    font-size: 2vw;
-    z-index: 99;
-    width: 3vw;
-    font-family:sans-serif;
-    right: 2vw;
-    bottom: 2.4vw;
-    position:fixed;
-    cursor: cell;
 }
 
 
-#french{opacity: 0;
-transition-timing-function: linear}
-
-#orange{
-    color: orangered;
-    display: inline;
-}
-
-#yellow{
-    color: yellow;
-    display: inline;
-}
-
-#rose{
-    color: deeppink;
-    display: inline;
-}
 
 footer{
     cursor:context-menu;
     font-family: sans-serif;
-    font-size: 1vw;
+    font-size: 0.5vw;
     cursor:context-menu;
     position: absolute;
     text-align: center;
@@ -115,3 +113,5 @@ footer{
     width: 80vw;
     left: 10vw;
 }
+
+
